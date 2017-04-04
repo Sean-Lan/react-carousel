@@ -16,6 +16,16 @@
     transition: left 2s ease-in-out;
 }
 
+.carousel-appear {
+    position: absolute;
+    left: -100%;
+}
+
+.carousel-appear-active {
+    position: absolute;
+    left: 0;
+}
+
 .carousel-enter {
     position: absolute;
     left: -100%;

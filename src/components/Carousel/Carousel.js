@@ -7,6 +7,8 @@ const Carousel = ({imageSrc}) =>(
   <div className={'carousel-frame'}>
     <ReactCSSTransitionGroup
       transitionName="carousel"
+      transitionAppear={true}
+      transitionAppearTimeout={2000}
       transitionEnterTimeout={2000}
       transitionLeaveTimeout={2000}>
       <img className={'carousel-img'} src={imageSrc} key={imageSrc} alt={imageSrc}/>
